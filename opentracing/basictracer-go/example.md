@@ -32,3 +32,7 @@ RecordSpan: getInput[2018-07-05 14:19:36.916512195 +0800 CST m=+0.001382988, 7.2
 1 map[Date:[Thu, 05 Jul 2018 06:19:44 GMT] Content-Length:[0]] {} 0 [] false false map[] 0xc42014c000
 <nil>}]
 ```
+
+# 总结
+
+opentracing-go库是对OpenTracing标准的代码范式表达，而basictracer-go是对前者的最小子集扩展和实现，理论上这个basictracer-go已经可以进行业务开发和使用了，但是这个库还非常弱，主要表现在：collector和storage基于一身，且还是基于内存的，没有dashboard UI支持，无法用于生产。虽然无法用于生产，但是Span的实现，Carrier的支持已经做得很好了，同时这个库希望厂商采用OpenTracing标准实现时，可以把它作为中间层或者组件使用，因为它对厂商开放了一些接口自定义实现，例如：Carrier的AccessPropagation（IPC/RPC数据转换和存储），SpanRecord接口（RawSpan信息存储）。但是厂商也可以完全自己基于opentracing-go设计一套完整的分布式跟踪系统，不用再在opentracing-go和厂商中间加一层basictracer-go。
