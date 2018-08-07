@@ -4,7 +4,7 @@
 * [dapper](dapper/README.md)
     - [Dapper论文](dapper/dapper.md)
 * [opentracing标准](opentracing标准/README.md) 
-    - [概念和目标](opentracing标准/概念和目标.md)
+    - [概念和目标](opentracing标准/概念与目标.md)
     - [名词与术语](opentracing标准/名词与术语.md)
     - [APIs](opentracing标准/OpenTracing APIs.md)
     - [设计分布式跟踪系统的有效方法](opentracing标准/设计分布式跟踪系统的有效方法.md)
