@@ -7,7 +7,7 @@
     - [概念和目标](opentracing标准/概念与目标.md)
     - [名词与术语](opentracing标准/名词与术语.md)
     - [APIs](opentracing标准/OpenTracing APIs.md)
-    - [设计分布式跟踪系统的有效方法](opentracing标准/设计分布式跟踪系统的有效方法.md)
+    - [设计分布式跟踪系统的有效方法](opentracing标准/设计分布式追踪系统的有效方法.md)
 * [trace产品对比](分布式跟踪系统——产品对比.md)
 * [opentracing-go](opentracing-go/README.md)
     - [Tracer实例](opentracing-go/opentracer-go源码阅读一.md)
