@@ -51,3 +51,4 @@
         * [inboundcall与outboundcall](jaeger/tchannel-go/OutboundCall-and-InboundCall.md)
         * [message exchange](jaeger/tchannel-go/message-exchange.md)
         * [arguments](jaeger/tchannel-go/arguments.md)
+        * [message](jaeger/tchannel-go/message.md)
