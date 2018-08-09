@@ -1,6 +1,11 @@
 # opentracing
 
-电子书地址：[opentracing](https://love2.io/@1046102779/doc/opentracing)
+电子书地址：
+
+1. [地址2](https://www.kancloud.cn/cdh0805010118/opentracing/719285)
+
+2. [地址1](https://love2.io/@1046102779/doc/opentracing)
+
 
 为了对分布式跟踪系统有系统的了解，我的阅读清单
 
