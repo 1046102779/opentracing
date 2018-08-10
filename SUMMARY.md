@@ -52,3 +52,5 @@
         * [message exchange](jaeger/tchannel-go/message-exchange.md)
         * [arguments](jaeger/tchannel-go/arguments.md)
         * [message](jaeger/tchannel-go/message.md)
+        * [payload-WriteBuffer&ReadBuffer](jaeger/tchannel-go/payload-WriteBuffer-ReadBuffer.md)
+        * [payload-Reader](jaeger/tchannel-go/payload-Reader.md)
