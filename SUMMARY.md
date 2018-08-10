@@ -55,3 +55,4 @@
         * [payload-WriteBuffer&ReadBuffer](jaeger/tchannel-go/payload-WriteBuffer-ReadBuffer.md)
         * [payload-Reader](jaeger/tchannel-go/payload-Reader.md)
         * [frame](jaeger/tchannel-go/frame.md)
+        * [frame pool与call options](jaeger/tchannel-go/framepool-and-calloptions.md)
