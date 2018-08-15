@@ -2,7 +2,7 @@
 
 电子书地址：
 
-1. [看云地址](https://www.kancloud.cn/cdh0805010118/opentracing/719285)
+1. [看云地址](https://www.kancloud.cn/cdh0805010118/opentracing)
 
 2. [love2.io](https://love2.io/@1046102779/doc/opentracing)
 
