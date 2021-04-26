@@ -63,7 +63,7 @@ ps: 其实这里也有另一个问题：如果交给后端collector服务进行�
 此外uber还重新设计了客户端库，可将追踪Span报告给本地UDP端口，并能轮询本地会换接口上的代理获取采样策略。新的客户端只需要最基本的网络库，架构上的这种变化向着我们先追踪后采样的愿景迈出了一大步，我们可以在代理的内存中对追踪记录进行缓存，**这点类似于Appdash的ChunkedCollector方法，在agent以时间和大小两个维度进行缓存。**
 
 
-目前的Jaeger架构：后端组件使用Golang实现，客户端库使用了四种支持OpenTracing标准的语言，一个机遇React的Web前端，以及一个机遇Apache Spark的后处理和聚合数据管道。
+目前的Jaeger架构：后端组件使用Golang实现，客户端库使用了四种支持OpenTracing标准的语言，一个基于React的Web前端，以及一个机遇Apache Spark的后处理和聚合数据管道。
 
 ## Jaeger UI
 
